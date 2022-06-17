@@ -1,5 +1,5 @@
 # match-assignment
-Match.com Registration and Search Test Automation using JAVA, Selenium, TestNg
+Match.com Registration and Search Test Automation using JAVA, Selenium, TestNg, maven
 
 Pre-requisities: Eclipse IDE, Chrome and Firefox browser 
 
@@ -19,3 +19,21 @@ Scenario automated:
   7. Refresh the page and verify that the user is no longer on the search page
   8. From the search page, attempt to hide a user from search results
   9. Verify that the user is taken to the subscription page
+
+Project structure
+master
+ - src/test/java
+    - helper
+        - DriverFactory.java #driver initialization class
+    - pageObjects
+        - Home.java # home page page objects
+        - Registration.java # registration page page objects
+    - testcases
+ - JRE system library
+ - Maven dependencies
+ - TestNg
+ - src
+ - target
+ - test-output
+ - pom.xml
+ - testng.xml
